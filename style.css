@@ -1,0 +1,16 @@
+body{
+    background-color:aquamarine ;
+}
+.firstp{
+    color:blue;
+    font-weight: bolder;
+}
+#firstD{
+    color: red;
+}
+span{
+    color: plum;
+}
+img{
+    width: 50%;
+}

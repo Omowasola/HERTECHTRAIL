@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hertech registration form</title>
+</head>
+<body>
+    <header class="headersection">
+      <h1>FILL THIS FORM IN ORDER TO REGISTER FOR THIS COHORT.</h1>
+    </header>
+    <main>
+        <form>
+            
+           <div>
+            <label for="fullname">Full Name:</label>
+            <input type="text" placeholder="Halimat Kayode" id="fullname">
+            </div><br/>
+
+            <div>
+              <label for="emailaddress">Email Address:</label> 
+              <input type="email" placeholder="example@email.com" id="emailaddress"> 
+            </div><br/>
+
+            <div>
+                <label for="phone">Whatsapp Number:</label>
+                <input type="tel" id="phone">
+            </div><br/>
+
+            <div>
+                <label for="date">Date Of Birth:</label>
+                <input type="date" id="date">
+            </div><br/>
+
+            <div>
+                <label>Track</label><br/>
+                <input type="radio" id="track" value="Web Development" name="Track">
+                <label for="track">Web Development</label>
+
+                <input type="radio" id="track2" value="Artificial Intelligence" name="Track">
+                <label for="track2">Artificial Intelligence</label>
+
+                <input type="radio" id="track3" value="Data Science" name="Track">
+                <label for="track3">Data Science</label>
+
+                <input type="radio" id="track4" value="UI/UX" name="Track">
+                <label for="track4">UI/UX</label>
+
+            </div><br/>
+
+            <div>
+              <label>State Of Origin:</label> 
+               <select>
+                    <option>Ondo</option>
+                    <option>Lagos</option>
+                    <option>Abia</option>
+                    <option>Kano</option>
+                    <option>Oyo</option>
+                </select>
+            </div><br/>
+            <p>In nothing less than 200 words,state why you should be awarded this scholarship</p>
+            <textarea rows="15" cols="20">LESS THAN 200 WORDS</textarea>
+    
+            <br/>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </main>
+</body>
+</html>
